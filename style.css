@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background-image: url(images/elements-1-01.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.span{
+    color: tomato;
+    font-size: 50px;
+}
+
+section{
+    display: flex;
+}
+
+.half-area{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.half-area img{
+    height: 300px;
+}
+
+.body-part{
+    background-image: url(images/elements-2-01.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.body-part h1{
+    display: inline-block;    
+}
+
+a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, tomato);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.mid-part{
+    margin-top: 100px;
+}
+
+.experience{
+    width: 40%;
+    padding: 5px;
+    margin: 150px 10px 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+}
+
+#tomato{
+    border-left: 5px solid tomato;
+}
+
+#blue{
+    border-left: 5px solid rgb(34, 156, 255);
+}
+
+footer{
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.ele1{
+    height: 300px;
+}
